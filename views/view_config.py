@@ -24,9 +24,6 @@ class ViewConfig:
 
         ttk.Checkbutton(self.content_config, text="Solicitad contraseñas para poder aplicar descuento", variable=self.view.pass_discount, style='Custom.TCheckbutton').grid(row=1,padx=5,pady=5,sticky="w") 
 
-        self.view.is_ticket = BooleanVar()
-        self.view.is_ticket.set(self.controller.config["is_ticket"])
-
         self.view.pass_registerCash = BooleanVar()
         self.view.pass_registerCash.set(self.controller.config["pass_registerCash"])
 

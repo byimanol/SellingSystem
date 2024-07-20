@@ -1,2 +1,6 @@
 .venv
 note.txt
+__pycache__
+models/__pycache__
+controllers/__pycache__
+views/__pycache__
